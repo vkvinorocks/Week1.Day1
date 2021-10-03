@@ -1,0 +1,25 @@
+package Week1Day1;
+
+public class NumberDivisibleCheck {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			int number = 12;
+			if (number%3==0 && number%5==0)
+			
+				System.out.println("the number is divisible by both TRIZZ-FIZZ");
+			else if (number%5==0)
+			{
+				System.out.println("the number is divisible by 5 FIZZ");
+			}
+			else if (number%3==0)
+			{
+				System.out.println("the number is divisible by 3 TRIZZ");
+			}
+			else
+			{	
+				System.out.println("the number is not divisibleby 3 & 5");
+			}	
+	}
+
+}
