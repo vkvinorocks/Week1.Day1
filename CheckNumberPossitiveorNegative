@@ -1,0 +1,20 @@
+package Week1Day1;
+
+public class NumberPosiorNegaCheck {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int num = 10;
+if (num > 0)
+{
+	System.out.println("Its a Possitive Number");
+}
+else if (num == 0)
+{
+	System.out.println("Its a Nuetral Number");
+}
+else
+	System.out.println("Its a Negative Number");
+	}
+
+}
